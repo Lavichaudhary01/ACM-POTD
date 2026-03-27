@@ -13,3 +13,4 @@ class Solution:
                 right -= 1
         return []
 
+<img width="1908" height="963" alt="Screenshot 2026-03-25 DAY 4" src="https://github.com/user-attachments/assets/18811544-d793-4cad-8355-8cdb2504c4f8" />
