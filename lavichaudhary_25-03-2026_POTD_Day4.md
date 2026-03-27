@@ -1,3 +1,4 @@
+#two sum
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
         left = 0
@@ -11,3 +12,4 @@ class Solution:
             else:
                 right -= 1
         return []
+
