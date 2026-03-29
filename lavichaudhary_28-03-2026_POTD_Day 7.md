@@ -12,4 +12,5 @@ class Solution:
         reverse(0, k - 1)
         reverse(k, n - 1)
         
-<img width="1919" height="969" alt="Screenshot 2026-03-28 010100" src="https://github.com/user-attachments/assets/1a90bf68-9ca3-4625-8c4a-5d8891c318f0" />
+<img width="1919" height="968" alt="Screenshot 2026-03-28 day 7" src="https://github.com/user-attachments/assets/5b56eaa1-ac57-4a3d-a81b-52982276b12f" />
+
