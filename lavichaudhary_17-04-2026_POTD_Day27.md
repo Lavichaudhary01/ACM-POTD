@@ -1,0 +1,17 @@
+# Diameter of Binary Tree
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        self.max_diameter = 0        
+        def get_height(node):
+            if not node:
+                return 0
+            left_height = get_height(node.left)
+            right_height = get_height(node.right)
+            current_diameter = left_height + right_height
+            self.max_diameter = max(self.max_diameter, current_diameter)            
+            return 1 + max(left_height, right_height)            
+        get_height(root)
+        return self.max_diameter
+
+
+<img width="1904" height="914" alt="image" src="https://github.com/user-attachments/assets/7e74eafd-7e79-4e89-a358-f3f7d5f91b2b" />
